@@ -1,0 +1,21 @@
+
+// Mixins
+@mixin two-col($gap, $fr1, $fr2 ) {
+    display: grid;
+    grid-gap: $gap;
+    grid-template-columns: $fr1 $fr2;
+}
+
+// Core
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    top: 0;
+}
+
+.well {
+    margin-top: 75px;
+}
